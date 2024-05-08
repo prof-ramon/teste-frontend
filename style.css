@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.container {
+    background-color: #481c9a;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    transition: 0.5s;
+    padding: 30px;
+    background-color: aliceblue;
+    width: 30vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dados {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    color: #481c9a;
+}
+
+button {
+    width: 50%;
+    height: 50px;
+    background-color:#481c9a;
+    color: #f3c72b;
+    margin-top: 10%;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #f3c72b;
+    color: #481c9a;
+    transition: 0.5s;
+}
